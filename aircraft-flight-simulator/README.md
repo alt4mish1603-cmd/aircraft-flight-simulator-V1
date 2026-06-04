@@ -4,6 +4,91 @@ A nonlinear aircraft flight simulator developed in Python as an independent Aero
 
 The simulator models longitudinal aircraft dynamics, aerodynamic forces and moments, aircraft trim conditions, and autopilot control systems for pitch, altitude, and airspeed control.
 
+**Project Structure:**
+
+Aircraft Simulation Project/
+
+
+
+aero.py
+
+atmosphere.py
+
+config.py
+
+controllers.py
+
+trim.py
+
+main.py
+
+
+
+File Descriptions
+
+
+
+1. aero.py
+
+Computes:
+
+\- Lift
+
+\- Drag
+
+\- Pitching Moments
+
+\- Aerodynamic Coefficients
+
+
+
+2\. atmosphere.py
+
+Provides atmospheric properties including:
+
+\- Air Density
+
+\- Temperature
+
+\- Pressure
+
+
+
+3\. config.py
+
+Stores:
+
+\- Aircraft Parameters
+
+\- Controller Gains
+
+\- Simulation Settings
+
+
+
+4\. controllers.py
+
+Contains:
+
+\- Pitch Controller
+
+\- Altitude Controller
+
+\- Airspeed Controller
+
+
+
+5\. trim.py
+
+Calculates equilibrium flight conditions using numerical root finding.
+
+
+
+6\. main.py
+
+Runs the simulation, integrates the equations of motion, and generates plots.
+
+
 
 
 **Project Overview:**
@@ -189,92 +274,6 @@ Pitch Error -> PID Controller -> Elevator Deflection
 Airspeed Controller:
 
 Airspeed Error -> Throttle Command
-
-
-
-**Project Structure:**
-
-Aircraft Simulation Project/
-
-
-
-aero.py
-
-atmosphere.py
-
-config.py
-
-controllers.py
-
-trim.py
-
-main.py
-
-
-
-File Descriptions
-
-
-
-1. aero.py
-
-Computes:
-
-\- Lift
-
-\- Drag
-
-\- Pitching Moments
-
-\- Aerodynamic Coefficients
-
-
-
-2\. atmosphere.py
-
-Provides atmospheric properties including:
-
-\- Air Density
-
-\- Temperature
-
-\- Pressure
-
-
-
-3\. config.py
-
-Stores:
-
-\- Aircraft Parameters
-
-\- Controller Gains
-
-\- Simulation Settings
-
-
-
-4\. controllers.py
-
-Contains:
-
-\- Pitch Controller
-
-\- Altitude Controller
-
-\- Airspeed Controller
-
-
-
-5\. trim.py
-
-Calculates equilibrium flight conditions using numerical root finding.
-
-
-
-6\. main.py
-
-Runs the simulation, integrates the equations of motion, and generates plots.
 
 
 
