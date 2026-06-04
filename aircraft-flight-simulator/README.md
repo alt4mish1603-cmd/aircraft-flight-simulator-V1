@@ -6,7 +6,7 @@ The simulator models longitudinal aircraft dynamics, aerodynamic forces and mome
 
 **Project Structure:**
 
-Aircraft Simulation Project/
+Aircraft Simulation Project:
 
 
 
@@ -31,64 +31,30 @@ File Descriptions
 1. aero.py
 
 Computes:
-
-\- Lift
-
-\- Drag
-
-\- Pitching Moments
-
-\- Aerodynamic Coefficients
-
-
+Lift, Drag, Pitching Moments, Aerodynamic Coefficients
 
 2\. atmosphere.py
 
-Provides atmospheric properties including:
-
-\- Air Density
-
-\- Temperature
-
-\- Pressure
-
-
+Provides atmospheric properties including: 
+air density,  temperature, pressure
 
 3\. config.py
 
-Stores:
-
-\- Aircraft Parameters
-
-\- Controller Gains
-
-\- Simulation Settings
-
-
+Stores: 
+aircraft parameters, controller gains, simulation settings
 
 4\. controllers.py
 
 Contains:
-
-\- Pitch Controller
-
-\- Altitude Controller
-
-\- Airspeed Controller
-
-
+pitch controller, altitude controller, airspeed controller
 
 5\. trim.py
 
 Calculates equilibrium flight conditions using numerical root finding.
 
-
-
 6\. main.py
 
 Runs the simulation, integrates the equations of motion, and generates plots.
-
-
 
 
 **Project Overview:**
@@ -104,7 +70,6 @@ This project was developed to apply principles of:
 \- Numerical Methods
 
 \- Scientific Computing
-
 
 
 The simulator predicts aircraft motion by solving the nonlinear equations of motion at each time step and updating the aircraft state using numerical integration.
