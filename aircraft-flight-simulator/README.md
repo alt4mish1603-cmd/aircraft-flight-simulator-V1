@@ -57,8 +57,6 @@ Calculates equilibrium flight conditions using numerical root finding.
 
 Runs the simulation, integrates the equations of motion, and generates plots.
 
-**Example Of The Simulation Running:**
-
 
 **Project Overview:**
 
@@ -93,6 +91,10 @@ The final model includes:
 
 \- Data visualisation and response analysis
 
+
+**Example Of The Simulation Running:**
+
+<img width="1919" height="1079" alt="Altitude_response_1000-1200" src="https://github.com/user-attachments/assets/9b6ba876-e813-4f40-9bdb-28edf06ac990" />
 
 
 **Aircraft States:**
