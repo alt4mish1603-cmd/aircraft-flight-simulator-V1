@@ -57,6 +57,8 @@ Calculates equilibrium flight conditions using numerical root finding.
 
 Runs the simulation, integrates the equations of motion, and generates plots.
 
+**Example Of The Simulation Running:**
+
 
 **Project Overview:**
 
