@@ -14,7 +14,8 @@ The simulator models longitudinal aircraft dynamics, aerodynamic forces and mome
 
 > Altitude descending from 1000m to 800m.
 
-![Altitude_response_1000-800](<img width="1919" height="1079" alt="Altitude_response_1000-800" src="https://github.com/user-attachments/assets/5d952494-ebd2-437f-8779-4383cfa05fa4" />)
+<img width="1919" height="1079" alt="Altitude_response_1000-800" src="https://github.com/user-attachments/assets/e45e1151-a92c-4d07-b643-5634992a3635" />
+
 
 ---
 
@@ -179,7 +180,7 @@ pip install numpy scipy matplotlib
 ### Run the simulation
 
 ```
-python src/main.py
+python src/flight-sim-complete.py
 ```
 
 The simulation initialises at trim, applies the configured altitude command, and generates plots of the aircraft state response on completion.
@@ -202,6 +203,7 @@ The simulation initialises at trim, applies the configured altitude command, and
 The natural next steps for this simulator are full 6-DOF dynamics, state-space linearisation around the trim point, eigenvalue-based stability analysis, and LQR optimal control design to replace the hand-tuned PID gains. Wind disturbance modelling and sensor/actuator dynamics would bring it closer to a realistic flight simulation environment.
 
 ---
+
 
 ## Author
 
